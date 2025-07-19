@@ -509,7 +509,7 @@ h2{
     cursor: pointer;
   }
   .sidebar {
-    display: flex;
+  
     z-index: 2000;
   }
   .hideOnMobile {
