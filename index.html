@@ -7,7 +7,7 @@
     <title>Kifayat Bhat | Web Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="./asserts/implement-the-caesar-cipher-in-python.jpg">
+    <link rel="icon" type="image/x-icon" href="./assets/implement-the-caesar-cipher-in-python.jpg">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
    
@@ -194,7 +194,7 @@
         <div class="contact-container">
            <form id="contactForm" class="contact-form">
   <div class="contact-message">
-    <input type="text" name="name" class="contact-content1" placeholder="Full Name" required>
+    <input type="text" name="name" class="contact-content1" placeholder="Full Name" required pattern="[A-Za-z\s]{2,}" title="Name should only contain letters and spaces">
     <input type="email" name="email" class="contact-content1" placeholder="Email Address" required>
     <input type="tel" name="phone" class="contact-content1" placeholder="Enter 10-digit number" pattern="[6-9]{1}[0-9]{9}" maxlength="10" required>
     <input type="text" name="title" class="contact-content1" placeholder="E-mail Subject" required>
