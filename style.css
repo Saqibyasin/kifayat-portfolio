@@ -508,10 +508,7 @@ h2{
     margin-left: auto;
     cursor: pointer;
   }
-  .sidebar {
-  
-    z-index: 2000;
-  }
+
   .hideOnMobile {
     display: none !important;
   }
