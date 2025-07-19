@@ -72,5 +72,12 @@ sidebar.querySelectorAll('a').forEach(link => {
   });
 });
 
-
+document.querySelectorAll('.social-media a').forEach(link => {
+  link.addEventListener('mouseup', function() {
+    this.blur();
+  });
+  link.addEventListener('touchend', function() {
+    this.blur();
+  });
+})
 
