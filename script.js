@@ -66,5 +66,11 @@ document.addEventListener('click', (event) => {
   }
 });
 
+sidebar.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    sidebar.style.display = 'none';
+  });
+});
+
 
 
