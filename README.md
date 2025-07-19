@@ -18,7 +18,6 @@ You can check out the live site here: [https://saqibyasin.github.io/kifayat-port
 - HTML5
 - CSS3
 - JavaScript
-- React (optional)
 - Google Fonts
 - FontAwesome Icons
 
