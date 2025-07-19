@@ -176,6 +176,10 @@ span{
     box-shadow: 0 0 20px var(--main-color);
     
 }
+.social-media a:not(:hover):not(:focus):not(:active) {
+  box-shadow: none !important;
+  outline: none !important;
+}
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
